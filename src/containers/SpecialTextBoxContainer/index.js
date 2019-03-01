@@ -2,7 +2,7 @@
 import { connect } from "react-redux";
 import {setSpecialText} from "../../actions"
 import SpecialTextBox from "../../components/SpecialTextBox"
-
+import UserButtonContainer from "../containers/"
 function mapDispatchToProps(dispatch){
   return{
     set: function(txt){
